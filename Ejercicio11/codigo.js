@@ -15,7 +15,7 @@ for (let i=0; i<12;i++){
 }
 
 for (let i=0; i<3600;i++){
-    dado1=valorRandom(1,6);
+    dado1=valorRandom(1,6 );
     dado2=valorRandom(1,6);
     suma = dado1+dado2;
     valsuma[suma-1]+=1;
