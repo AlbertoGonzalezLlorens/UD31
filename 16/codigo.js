@@ -12,7 +12,7 @@ window.setInterval(
         
 
         if (new Date().getMinutes() < 10){
-            if (new Date().getMinutes() == 00){
+            if ( new Date().getMinutes() == 00){
                 minutos.innerHTML = "00";
             }
             minutos.innerHTML = "0"+ new Date().getMinutes();
