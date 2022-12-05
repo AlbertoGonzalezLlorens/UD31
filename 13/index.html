@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Ejercicio13</title>
+    <!--Se llama al script-->
+    <script src="codigo.js"></script>
+</head>
+<body>
+    <!--con nonscript se lanza el mensaje a quien no tenga JavaScript activado -->
+    <noscript>
+        <p>Se requiere tener JavaScript activado</p>
+    </noscript>
+
+    <p>Ejercicio 13 </p>
+
+    <p onclick="alert('Se seleccionó un párrafo del documento')">Primer parrafo</p>
+
+    <table>
+        <tr>
+            <td onclick="alert('Se seleccionó un párrafo del documento')">Primer parrafo de la primera tabla</td>
+            <td onclick="alert('Se seleccionó un párrafo del documento')">Segundo parrafo de la primera tabla</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td onclick="alert('Se seleccionó un párrafo del documento\nSe presionó un párrafo de la segunda tabla')">Primer parrafo de la segunda tabla</td>
+            <td onclick="alert('Se seleccionó un párrafo del documento\nSe presionó un párrafo de la segunda tabla')">Segundo parrafo de la segunda tabla</td>
+        </tr>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+div{
+    display: inline;
+}
+#texto{
+    width: 170px;
+    font-size: 30px;
+    font-weight: bold; 
+}
+#reloj{
+    border: 2px black solid;
+    width: 170px;
+    font-size: 30px;
+    font-weight: bold;
+}

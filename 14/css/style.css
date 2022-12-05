@@ -1,0 +1,10 @@
+table{
+    border: 2px black solid;
+    box-shadow: 5px 10px 60px greenyellow;
+}
+button{
+    width:54px;
+}
+.igual{
+    width:100%;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Ejercicio14</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="codigo.js"></script>
+</head>
+<body>
+    <!--con nonscript se lanza el mensaje a quien no tenga JavaScript activado -->
+    <noscript>
+        <p>Se requiere tener JavaScript activado</p>
+    </noscript>
+
+    <div>
+        <table>
+            <tr>
+                <td colspan="3"><input type="entrada" id="input"></td>
+                <td><button onclick="ce()">CE</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="uno()">1</button></td>
+                <td><button onclick="dos()">2</button></td>
+                <td><button onclick="tres()">3</button></td>
+                <td><button onclick="mas()">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="cuatro()">4</button></td>
+                <td><button onclick="cinco()">5</button></td>
+                <td><button onclick="seis()">6</button></td>
+                <td><button onclick="menos()">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="siete()">7</button></td>
+                <td><button onclick="ocho()">8</button></td>
+                <td><button onclick="nueve()">9</button></td>
+                <td><button onclick="multiplicacion()">*</button></td>
+            </tr>
+            <tr>
+                <td><button  onclick="cero()">0</button></td>
+                <td colspan="2"><button class="igual"  onclick="igual()">=</button></td>
+                <td><button  onclick="division()">/</button></td>
+                
+            </tr>
+        </table>
+    </div>
+    
+</body>
+
+</html>
